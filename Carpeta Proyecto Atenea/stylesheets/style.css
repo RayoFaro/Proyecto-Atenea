@@ -1,0 +1,914 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.launcher{
+    display: flex;
+    justify-content: center;
+}
+.miluna{
+    position: absolute;
+    top: 88px;
+}
+.forma_uno{
+    position: absolute;
+    z-index: -1;
+}
+.forma_dos{
+    position: absolute;
+    top: 32px;
+    z-index: -2;
+}
+.oscuridad{
+    position: absolute;
+    z-index: -3;
+    width: 360px;
+    height: 800px;
+    background: rgba(15, 21, 31, 0.70);
+}
+.luna_dormida{
+    position: absolute;
+    z-index: -4;
+    top: 236px;
+}
+
+/* boton_empezar */
+.empezar{
+    position: absolute;
+    top: 656px;
+    width: 139px;
+    height: 52px;
+}
+.boton_empezar{
+    position: absolute;
+    z-index: 4;
+}
+.layout_boton{
+    display: flex;
+    width: 139px;
+    height: 52px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: white;
+    font-family: "Montserrat Alternates";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.calendario{
+    font-family: 'icomoon';
+    font-size: 16px;
+    color: #D55D7F;
+}
+.forma_boton_uno{
+    position: absolute;
+    z-index: 2;
+    width: 139px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 0.50);
+}
+.forma_boton_dos{
+    position: absolute;
+    z-index: 3;
+    width: 99px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: #D55D7F;
+    box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 0.50);
+}
+
+/* bienvenida */
+.bienvenida{
+    display: flex;
+    justify-content: center;
+}
+.rosado_abajo_uno{
+    position: absolute;
+    z-index: -2;
+    top: 21px;
+}
+.rosado_abajo_dos{
+    position: absolute;
+    z-index: -2;
+    top: 600px;
+}
+.verde_arriba{
+    position: absolute;
+    z-index: -1;
+    top: 616px;
+}
+.blanco{
+    position: absolute;
+    z-index: -1;
+}
+.cuadro_bienvenida_layout{
+    display: flex;
+    width: 312px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 16px 40px;
+    flex-wrap: wrap;
+}
+.texto_uno{
+    color: #D55D7F;
+    text-align: center;
+    font-family: "Montserrat Alternates";
+    font-size: 24px;
+    font-weight: bold;
+}
+.texto_dos{
+    width: 232px;
+    color: #000000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.texto_tres{
+    width: 232px;
+    color: #000000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+}
+.cuadro_bienvenida{
+    margin-top: 72px;
+}
+.cuadro_si{
+    width: 48px;
+    height: 48px;
+}
+.cuadro_no{
+    width: 48px;
+    height: 48px;
+}
+.absolute_si{
+    position: absolute;
+    z-index: 2;
+}
+.forma_si_grande{
+    position: absolute;
+    z-index: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 22px 22px 0px 22px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.forma_si_pequeña{
+    position: absolute;
+    z-index: 1;
+    margin: 4px;
+    width: 40px;
+    height: 40px;
+    border-radius: 22px 22px 0px 22px;
+    background: #D55D7F;
+}
+.si_no_layout{
+    display: flex;
+    padding: 14px 16.5px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Montserrat Alternates";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.si_no_layout_no{
+    display: flex;
+    padding: 14px 12px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Montserrat Alternates";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.forma_si_grande_no{
+    position: absolute;
+    z-index: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 22px 22px 22px 0px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.forma_si_pequeña_no{
+    position: absolute;
+    z-index: 1;
+    margin: 4px;
+    width: 40px;
+    height: 40px;
+    border-radius: 22px 22px 22px 0px;
+    background: #D55D7F;
+}
+.doctora_bienvenida{
+    position: absolute;
+    top: 376px;
+}
+
+
+/* Explicacion */
+.explicacion{
+    display: flex;
+    justify-content: center;
+}
+.rsd_ar{
+    position: absolute;
+    z-index: -2;
+    top: 25px;
+}
+.rsd_abj{
+    position: absolute;
+    z-index: -2;
+    top: 344px;
+}
+.vrd_ar{
+    position: absolute;
+    z-index: -1;
+}
+.bln_abj{
+    position: absolute;
+    z-index: 0;
+    top: 360px;
+}
+.doctora_explicacion{
+    position: absolute;
+    z-index: -1;
+    top: 24px;
+}
+
+.swiper {
+    position: absolute;
+    top: 448px;
+    width: 360px;
+    overflow: hidden;
+  }
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto_primero{
+    width: 232px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 0.12px;
+  }
+.slide_uno{
+    display: flex;
+    width: 360px;
+    padding: 40px 62px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+  
+.slide_tres{
+    display: flex;
+    width: 360px;
+    padding: 40px 62px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+
+/* boton_siguiente */
+.siguiente{
+    top: 656px;
+    width: 139px;
+    height: 52px;
+}
+.boton_siguiente{
+    position: absolute;
+    z-index: 4;
+}
+.layout_boton_siguiente{
+    display: flex;
+    width: 139px;
+    height: 52px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: white;
+    font-family: "Montserrat Alternates";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.right{
+    font-family: 'icomoon';
+    font-size: 16px;
+    color: #D55D7F;
+}
+.forma_boton_uno_siguiente{
+    position: absolute;
+    z-index: 2;
+    width: 135.88px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 0.50);
+}
+.forma_boton_dos_siguiente{
+    position: absolute;
+    z-index: 3;
+    width: 104px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: #D55D7F;
+    box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 0.50);
+}
+
+.forma_boton_dos_siguiente:active {
+    background-color: #C62D84;
+    transform: scale(0.9);
+}
+
+
+/* inicio */
+.pantalla_inicio{
+    display: flex;
+    justify-content: center;
+}
+
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    height: 2160px;
+}
+
+.rsd_ad{
+    position: absolute;
+    z-index: -1;
+    margin-left: 92.5px;
+}
+
+.vrd_ad{
+    position: absolute;
+    z-index: -2;
+    margin-left: 76px;
+}
+
+.marca_miluna{
+    position: absolute;
+    top: 18px;
+    margin-left: 24px;
+}
+
+.boton_preferencias{
+    position: absolute;
+    top: 18px;
+    margin-left: 288px;
+}
+
+.pref{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 11.495px 11.505px 11.505px 11.495px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: 'icomoon';
+    font-size: 25px;
+    color: white;
+}
+.cuadro_saludo{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 48px;
+    gap: 16px;
+    margin-top: 96px;
+}
+.texto_hola{
+    width: 360px;
+    color: #000000;
+    text-align: center;
+    font-family: "Montserrat Alternates";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.16px;
+}
+.texto_lista_para{
+    width: 360px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.14px;
+}
+
+/* cuadro_mi_calendario */
+
+.mi_calendario{
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+        width: 360px;
+    height: 400px;
+}
+.cuadro_mi_calendario{
+    position: absolute;
+    margin-top: 80px;
+}
+.iandt_hacia_derecha{
+    display: flex;
+    width: 360px;
+    padding: 36px 16px;
+    align-items: center;
+    gap: 16px;
+    color: #000000;
+    font-family: "Montserrat Alternates";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0.24px;
+}
+.gris_hacia_derecha{
+    position: absolute;
+    z-index: -1;
+}
+
+/* cuadro_mi_cuidado */
+
+.mi_cuidado{
+    position: absolute;
+    z-index: 1;
+    top: 320px;
+    width: 360px;
+    height: 400px;
+}
+.cuadro_mi_cuidado{
+    position: absolute;
+    margin-top: 80px;
+}
+.iandt_hacia_izquierda{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 360px;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 16px;
+    color: #D55D7F;
+    font-family: "Montserrat Alternates";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0.24px;
+}
+.blanco_hacia_izquierda{
+    position: absolute;
+    z-index: -1;
+    
+}
+
+/* cuadro_mi_diario */
+
+.mi_diario{
+    position: absolute;
+    z-index: 1;
+    top: 560px;
+    width: 360px;
+    height: 400px;
+}
+.cuadro_mi_diario{
+    position: absolute;
+    margin-top: 80px;
+}
+.texto_mi_diario{
+    display: flex;
+    width: 360px;
+    padding: 24px 16px 24px 32px;
+    align-items: center;
+    gap: 32px;
+    color: #000000;
+    font-family: "Montserrat Alternates";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0.24px;
+}
+
+/* cuadro_mi_doctora */
+
+.mi_doctora{
+    position: absolute;
+    z-index: 1;
+    top: 800px;
+    width: 360px;
+    height: 400px;
+}
+.cuadro_mi_doctora{
+    position: absolute;
+    margin-top: 80px;
+}
+.iandt_hacia_izquierda{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 360px;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 16px;
+    color: #D55D7F;
+    font-family: "Montserrat Alternates";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0.24px;
+}
+
+/* cuadro_guia_familiar */
+
+.guia_familiar{
+    position: absolute;
+    z-index: 1;
+    top: 1040px;
+    width: 360px;
+    height: 400px;
+}
+.cuadro_guia_familiar{
+    position: absolute;
+    margin-top: 80px;
+}
+.illustext_guia_familiar{
+    display: flex;
+    justify-content: center;
+    width: 360px;
+    height: 240px;
+    color: #fff;
+    font-family: "Montserrat Alternates";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0.24px;
+}
+.texto_guia_familiar{
+    position: absolute;
+    z-index: 1;
+    margin-top: 128px;
+}
+
+/* cuadro_ciclos_sin */
+
+.ciclos_sin_mitos{
+    position: absolute;
+    z-index: 1;
+    top: 1280px;
+    width: 360px;
+    height: 400px;
+}
+.cuadro_ciclos{
+    position: absolute;
+    margin-top: 80px;
+}
+.texto_ciclos{
+    display: flex;
+    width: 360px;
+    height: 240px;
+    padding: 52px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: #fff;
+    font-family: "Montserrat Alternates";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0.24px;
+}
+.mayus_ciclos{
+    color: #D55D7F;
+    text-align: center;
+    font-family: "Montserrat Alternates";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.24px;
+}
+.minus_ciclos{
+    width: 232px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.12px;
+}
+
+/* boton_jugar_ahora */
+
+.jugar_ahora{
+    top: 656px;
+    width: 159.88px;
+    height: 52px;
+}
+.boton_jugar_ahora{
+    position: absolute;
+    z-index: 4;
+}
+.layout_boton_jugar{
+    display: flex;
+    width: 159.88px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: white;
+    font-family: "Montserrat Alternates";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.right{
+    font-family: 'icomoon';
+    font-size: 16px;
+    color: #D55D7F;
+}
+.forma_boton_uno_jugar{
+    position: absolute;
+    z-index: 2;
+    width: 159.88px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 0.50);
+}
+.forma_boton_dos_jugar{
+    position: absolute;
+    z-index: 3;
+    width: 127px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: #D55D7F;
+    box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 0.50);
+}
+
+/* conocer_mas */
+
+.conocer_mas{
+    position: absolute;
+    z-index: 1;
+    top: 1520px;
+    width: 360px;
+    height: 400px;
+}
+.cuadro_conocer_mas{
+    position: absolute;
+    margin-top: 80px;
+}
+.texto_conocer_mas{
+    display: flex;
+    width: 360px;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 16px;
+    color: #000;
+    font-family: "Montserrat Alternates";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0.24px;
+}
+
+/* cies */
+
+.cies{
+    position: absolute;
+    z-index: 1;
+    top: 1760px;
+    width: 360px;
+    height: 400px;
+}
+.cuadro_cies{
+    position: absolute;
+    margin-top: 80px;
+}
+.marca_cies{
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 240px;
+}
+
+/* menu_sticky */
+
+.menu_sticky{
+    position: fixed;
+    z-index: 4;
+    margin-top: 720px;
+    margin-left: 8px;
+}
+.menu_prfrm{
+    position: absolute;
+    z-index: -2;
+}
+.menu_segfrm{
+    position: absolute;
+    z-index: -1;
+}
+.menu_sgfrm_center{
+    display: flex;
+    justify-content: center;
+    width: 344px;
+}
+.menu_layout{
+    position: absolute;
+}
+.texto_menu{
+    display: flex;
+    width: 344px;
+    height: 56px;
+    padding: 4px 40px;
+    align-items: center;
+    gap: 64px;
+    flex-shrink: 0;
+    font-family: 'icomoon';
+}
+.menu_calendario{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 11.5px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 25px;
+}
+.menu_inicio{
+    color: #fff;
+    font-size: 40px;
+}
+.menu_burguer{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 11.5px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 25px;
+}
+
+/* pantalla_mi_calendario */
+
+.pantalla_mi_calendario{
+    display: flex;
+    justify-content: center;
+}
+
+.inicio_mi_calendario{
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    height: 800px;
+}
+
+.fondo_mi_calendario{
+    position: absolute;
+    z-index: -3;
+}
+.marca_mi_luna_blanco{
+    position: absolute;
+    top: 18px;
+    margin-left: 24px;
+}
+
+.cabecera_calendario{
+    width: 360px;
+    height: 56px;
+    position: absolute;
+}
+
+.cabecera_texto_color{
+    top: 372px;
+    margin-left: 40px;
+    position: absolute;
+    z-index: 1;
+}
+
+.cabecera{
+    top: 360px;
+    position: absolute;
+    z-index: -1;
+}
+
+.mes{
+    display: flex;
+    width: 280px;
+    height: 56px;
+    padding: 4px 0px;
+    align-items: center;
+    gap: 8px;
+}
+
+.texto_calendario{
+    order: 2;
+    width: 168px;
+    height: 48px;
+    color: var(--Color, #FFF);
+    text-align: center;
+    font-family: "Montserrat Alternates";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0.16px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.calendar {
+    width: 336px;
+    height: 264px;
+    margin-top: 440px;
+    margin-left: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+tr{
+    text-align: center;
+}
+th, td {
+    width: 14.28%;
+    text-align: center;
+    padding: 5px;
+}
+th {
+    background-color: #D55D7F;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    padding: 8px 0;
+}
+td {
+    border: 1px solid #ddd;
+    color: #333;
+}
+td.inactive {
+    color: #d3d3d3;
+}
+
+/* iconos */
+
+.flecha_derecha{
+    order: 3;
+    width: 48px;
+    height: 48px;
+    font-family: 'icomoon';
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+.flecha_izquierda{
+    order: 1;
+    width: 48px;
+    height: 48px;
+    font-family: 'icomoon';
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
